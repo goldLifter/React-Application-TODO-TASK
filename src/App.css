@@ -1,0 +1,90 @@
+body{
+  background: rgb(110, 110, 116);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  width: 360px;
+  color: cornflowerblue;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.todo-list{
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 398px;
+  background: lightgray;
+}
+
+.material-icons{
+  color: grey;
+}
+
+.todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gainsboro;
+  box-shadow: 0 0px 2px 0px;
+}
+
+.stats{
+  margin: 0 auto;
+  width: 398px;
+  font-size: 10px;
+  background: darkgray;
+  box-shadow: 0 0px 2px 0px;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: grey;
+}
+
+button{
+  border: none;
+  background: none;  
+}
+
+.todo-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: rgb(170, 170, 170);
+  width: 398px;
+  box-shadow: 0px 2px 5px black;
+}
+
+input{
+  padding: 5px;
+  margin: 5px;
+  width: 85%;
+  border-radius: 5px;
+  border: 0px;
+}
+
+

@@ -1,8 +1,5 @@
 React application "Todo-Task App".
 
-Developer: Kirill Krotenkov
-Version: 1.0
-
 Description app:
 - Add task
 - Delete task
